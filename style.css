@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto 30px auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.expense-list {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.expense-item {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.expense-info h3 {
+    color: #333;
+    font-size: 16px;
+}
+
+.expense-info p {
+    color: #888;
+    font-size: 13px;
+}
+
+.expense-amount {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.delete-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: auto;
+    margin: 0 0 0 10px;
+}
+
+.total-box {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto 20px auto;
+    font-size: 20px;
+    font-weight: bold;
+}
